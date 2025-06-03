@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Cooper App",
+        "description": "Aplicación móvil para realizar cálculos de frecuencias.",
+        "stack": [
+            "Ionic",
+            "Angular",
+            "TypeScript"
+        ],
+        "image": "/assets/images/projects/cooper-app.webp",
+        "github": "https://github.com/arielptiban/cooperApp",
+        "live": "https://github.com/arielptiban/cooperApp"
+    },
+    {
+        "title": "Web GAD Mocha",
+        "description": "Rediseño de la Interfaz de Usuario del website del GAD Mocha.",
+        "image": "/assets/images/projects/web-mocha.webp",
+        "stack": [
+            "Angular",
+            "Bootstrap",
+            "Firebase"
+        ],
+        "github": "https://github.com/arielptiban/appTFM",
+        "live": "https://gad-mocha-front-end.web.app/Inicio"
+    },
+    {
+        "title": "Landing de Tesla",
+        "description": "Clon de la landing de Tesla con Astro, HTML, Tailwind y JavaScript.",
+        "stack": [
+            "Astro",
+            "Tailwind",
+            "HTML",
+            "JavaScript"
+        ],
+        "image": "/assets/images/projects/landing-tesla.webp",
+        "github": "https://github.com/arielptiban/tesla",
+        "live": "https://spiffy-trifle-090fb6.netlify.app/"
+    }
+]

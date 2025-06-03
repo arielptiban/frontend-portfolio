@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Angular",
+        "icon": "/assets/images/stack/angular.svg",
+        "rel": "Angular logo"
+    },
+    {
+        "name": "Astro",
+        "icon": "/assets/images/stack/Astro_dark.svg",
+        "rel": "Astro logo"
+    },
+    {
+        "name": "Tailwind",
+        "icon": "/assets/images/stack/tailwindcss.svg",
+        "rel": "Tailwind logo"
+    },
+    {
+        "name": "HTML5",
+        "icon": "/assets/images/stack/html5.svg",
+        "rel": "HTML5 logo"
+    },
+    {
+        "name": "CSS",
+        "icon": "/assets/images/stack/css_old.svg",
+        "rel": "CSS logo"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "/assets/images/stack/javascript.svg",
+        "rel": "JavaScript logo"
+    },
+    {
+        "name": "Git",
+        "icon": "/assets/images/stack/git.svg",
+        "rel": "Git logo"
+    },
+    {
+        "name": "Firebase",
+        "icon": "/assets/images/stack/firebase.svg",
+        "rel": "Firebase logo"
+    },
+    {
+        "name": "Ionic",
+        "icon": "/assets/images/stack/ionic.svg",
+        "rel": "Ionic logo"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "/assets/images/stack/typescript.svg",
+        "rel": "TypeScript logo"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "/assets/images/stack/bootstrap.svg",
+        "rel": "Bootstrap logo"
+    }
+]
