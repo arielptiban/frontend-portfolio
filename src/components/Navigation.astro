@@ -1,0 +1,32 @@
+---
+import menus from "@/collections/menu.json";
+---
+
+<nav
+    class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-transparent py-8"
+>
+    <div
+        class="container mx-auto px-8 flex justify-between items-center max-w-7xl"
+    >
+        <a
+            href="#home"
+            class="text-xl font-semibold text-white hover:text-white/80 transition-colors duration-300"
+        >
+            Ariel Tibán
+        </a>
+
+        <div class="hidden md:flex space-x-12">
+            {
+                menus.map((item) => (
+                    <a
+                        href={item.href}
+                        class="text-white/70 hover:text-white font-medium transition-colors duration-300 relative group text-sm tracking-wide"
+                    >
+                        {item.label}
+                        <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
+                    </a>
+                ))
+            }
+        </div>
+    </div>
+</nav>

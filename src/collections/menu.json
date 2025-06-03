@@ -1,0 +1,18 @@
+[
+    {
+        "label": "Inicio",
+        "href": "#home"
+    },
+    {
+        "label": "Proyectos",
+        "href": "#projects"
+    },
+    {
+        "label": "Sobre mí",
+        "href": "#about"
+    },
+    {
+        "label": "Contacto",
+        "href": "#contact"
+    }
+]
