@@ -1,5 +1,7 @@
 ---
-
+import Send from "@/components/icons/Send.astro";
+import Mail from "@/components/icons/Mail.astro";
+import Github from "@/components/icons/Github.astro";
 ---
 
 <section id="contact" class="py-32 bg-[#0d0d0d]">
@@ -54,6 +56,7 @@
                     class="w-full bg-white text-black py-4 rounded-lg font-semibold hover:bg-white/90 transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                 >
                     Enviar mensaje
+                    <Send className="w-4 h-4" />
                 </button>
             </form>
 
@@ -75,10 +78,12 @@
                         href="mailto:alex@example.com"
                         class="flex items-center gap-4 p-4 border border-white/20 rounded-lg hover:border-white/40 transition-colors duration-300 group"
                     >
-                        <!-- <Mail class="w-5 h-5 text-white/60 group-hover:text-white transition-colors" /> -->
                         <span
-                            class="text-white/70 group-hover:text-white transition-colors"
+                            class="text-white/70 group-hover:text-white transition-colors flex items-center gap-4"
                         >
+                            <Mail
+                                class="w-5 h-5 text-white/60 group-hover:text-white transition-colors"
+                            />
                             arielptiban@gmail.com
                         </span>
                     </a>
@@ -89,25 +94,13 @@
                         rel="noopener noreferrer"
                         class="flex items-center gap-4 p-4 border border-white/20 rounded-lg hover:border-white/40 transition-colors duration-300 group"
                     >
-                        <!-- <Github class="w-5 h-5 text-white/60 group-hover:text-white transition-colors" /> -->
                         <span
-                            class="text-white/70 group-hover:text-white transition-colors"
+                            class="text-white/70 group-hover:text-white transition-colors flex items-center gap-4"
                         >
+                            <Github
+                                class="w-5 h-5 text-white/60 group-hover:text-white transition-colors"
+                            />
                             GitHub
-                        </span>
-                    </a>
-
-                    <a
-                        href="https://linkedin.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="flex items-center gap-4 p-4 border border-white/20 rounded-lg hover:border-white/40 transition-colors duration-300 group"
-                    >
-                        <!-- <Linkedin class="w-5 h-5 text-white/60 group-hover:text-white transition-colors" /> -->
-                        <span
-                            class="text-white/70 group-hover:text-white transition-colors"
-                        >
-                            LinkedIn
                         </span>
                     </a>
                 </div>

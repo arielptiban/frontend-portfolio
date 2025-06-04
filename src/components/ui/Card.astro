@@ -1,6 +1,8 @@
 ---
 const { title, description, live, image, stack, github } = Astro.props;
 import stacks from "@/collections/stack.json";
+import Github from "@/components/icons/Github.astro";
+import Arrow from "@/components/icons/Arrow.astro";
 
 const projectStack = stacks.filter((tech) => {
     return stack.includes(tech.name);
@@ -56,14 +58,17 @@ const projectStack = stacks.filter((tech) => {
                 class="flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm"
             >
                 Live Demo
+                <Arrow class="w-4 h-4" />
             </a>
 
             <a
                 href={github}
                 target="_blank"
+                rel="noopener noreferrer"
                 class="flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm"
             >
                 Código
+                <Github class="w-4 h-4" />
             </a>
         </div>
     </div>
