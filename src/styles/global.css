@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 @import "tailwindcss";
+@plugin "@midudev/tailwind-animations";
 
 @layer utilities {
 
@@ -6,4 +8,18 @@
     @apply bg-white/5 backdrop-blur-md border border-white/10;
   }
   
+}
+
+@layer base {
+
+  body {
+    @apply bg-[#0d0d0d] text-white font-sans;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }
